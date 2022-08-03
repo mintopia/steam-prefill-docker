@@ -21,12 +21,6 @@ cd steam-prefill-docker
 ./SteamPrefill select-apps
 ```
 
-```cmd
-git clone https://github.com/mintopia/steam-prefill-docker.git
-cd steam-prefill-docker
-.\SteamPrefill select-apps
-```
-
 For instructions on how to use SteamPrefill please read the [README on the GitHub project](https://github.com/tpill90/steam-lancache-prefill).
 
 Config and cache data are written to bind-mounted volumes.

@@ -1,5 +1,5 @@
 FROM alpine:3 AS download
-ARG PREFILL_VERSION=1.2.1
+ARG PREFILL_VERSION=1.2.2
 RUN \
     cd /tmp && \
     wget -O SteamPrefill.zip https://github.com/tpill90/steam-lancache-prefill/releases/download/v${PREFILL_VERSION}/SteamPrefill-${PREFILL_VERSION}-linux-x64.zip && \

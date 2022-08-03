@@ -1,0 +1,9 @@
+version: '3'
+services:
+  steam-prefill:
+    build: .
+    volumes:
+      - ./Cache:/app/Cache
+      - ./Config:/app/Config
+    profiles:
+      - steam-prefill

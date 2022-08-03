@@ -17,13 +17,13 @@ Clone this repository and then use either the `SteamPrefill` command or `SteamPr
 
 ```bash
 git clone https://github.com/mintopia/steam-prefill-docker.git
-cd steam-lancache-prefill
+cd steam-prefill-docker
 ./SteamPrefill select-apps
 ```
 
 ```cmd
 git clone https://github.com/mintopia/steam-prefill-docker.git
-cd steam-lancache-prefill
+cd steam-prefill-docker
 .\SteamPrefill select-apps
 ```
 

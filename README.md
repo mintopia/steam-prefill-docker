@@ -17,11 +17,13 @@ Clone this repository and then use either the `SteamPrefill` command or `SteamPr
 
 ```bash
 git clone https://github.com/tpill90/steam-lancache-prefill.git
+cd steam-lancache-prefill
 ./SteamPrefill select-apps
 ```
 
 ```cmd
 git clone https://github.com/tpill90/steam-lancache-prefill.git
+cd steam-lancache-prefill
 .\SteamPrefill select-apps
 ```
 

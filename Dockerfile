@@ -11,7 +11,10 @@ FROM ubuntu:22.04
 LABEL maintainer="jess@mintopia.net"
 
 RUN \
-    mkdir -p /app
+    apt-get update && \
+    apt-get install -y ca-certificates && \
+    mkdir -p /app && \
+    rm -rf /var/lib/apt/lists/*
 
 COPY --from=download /tmp/SteamPrefill /app/SteamPrefill
 

@@ -31,6 +31,22 @@ For instructions on how to use SteamPrefill please read the [README on the GitHu
 
 Config and cache data are written to bind-mounted volumes.
 
+### Running without Docker-Compose
+
+This is NOT recommended as it's more awkward, but if you *really* want to:
+
+```bash
+docker run \
+  -v ${PWD}/Cache:/app/Cache \
+  -v ${PWD}/Config:/app/Config \
+  -it \
+  --rm \
+  ghcr.io/mintopia/steam-prefill-docker:latest \
+  select-apps
+```
+
+This will use the latest image from GHCR.
+
 ## Support
 
 For support, please visit the [LanCache.Net Discord Server](https://discord.com/invite/lancachenet) in the `#steam-prefill` channel.

@@ -10,9 +10,10 @@ RUN \
 FROM ubuntu:22.04
 LABEL maintainer="jess@mintopia.net"
 
-COPY --from=download /tmp/SteamPrefill /usr/bin/SteamPrefill
 RUN \
     mkdir -p /app
 
+COPY --from=download /tmp/SteamPrefill /app/SteamPrefill
+
 WORKDIR /app
-ENTRYPOINT [ "SteamPrefill" ]
+ENTRYPOINT [ "/app/SteamPrefill" ]

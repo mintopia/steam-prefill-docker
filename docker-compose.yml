@@ -7,3 +7,4 @@ services:
       - ./Config:/app/Config
     profiles:
       - steam-prefill
+    network_mode: host

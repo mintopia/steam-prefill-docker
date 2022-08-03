@@ -10,6 +10,8 @@ RUN \
 FROM ubuntu:22.04
 LABEL maintainer="jess@mintopia.net"
 
+ARG DEBIAN_FRONTEND=noninteractive
+
 RUN \
     apt-get update && \
     apt-get install -y ca-certificates && \

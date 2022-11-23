@@ -4,11 +4,13 @@
 
 ## Deprecated
 
-Please use [this version by Kimmo Saari](https://gitlab.com/kirbo/steam-prefill-docker) instead. It has a lot more features including:
+> **Warning**
+> This project is deprecated, the official Docker image should be used instead: 
+> https://hub.docker.com/r/tpill90/steam-lancache-prefill
+>
+> The setup guide can be found at: [Setup Guide](https://tpill90.github.io/steam-lancache-prefill/install-guides/Docker-Setup-Guide)
 
-- Automatic daily builds
-- Uses the latest version
-- Can easily be added to portainer
+
 
 ## Introduction
 
